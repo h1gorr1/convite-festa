@@ -31,61 +31,88 @@ body{
     position:relative;
 
     width:90vw;
-    max-width:450px;
+    max-width:460px;
+
+    transition:.3s;
 
 }
 
 .convite img{
 
     width:100%;
+
     display:block;
 
     border-radius:20px;
 
     box-shadow:
         0 15px 45px rgba(0,0,0,.6),
-        0 0 25px rgba(255,200,0,.08);
+        0 0 25px rgba(255,190,40,.08);
 
 }
 
-/* ---------- BOTÃO VERMELHO ---------- */
+/* ============================
+   BOTÃO LOCAL
+============================ */
 
 .btn-local{
 
     position:absolute;
 
-    left:4%;
-    bottom:2.2%;
+    left:6.5%;
+    bottom:2.1%;
 
-    width:44%;
-    height:9%;
+    width:25%;
+    height:11%;
 
-    border-radius:20px;
+    border-radius:50%;
 
 }
 
-/* ---------- BOTÃO VERDE ---------- */
+/* ============================
+   BOTÃO WHATSAPP
+============================ */
 
 .btn-whats{
 
     position:absolute;
 
-    right:4%;
-    bottom:2.2%;
+    left:37.5%;
+    bottom:2.1%;
 
-    width:44%;
-    height:9%;
+    width:25%;
+    height:11%;
 
-    border-radius:20px;
+    border-radius:50%;
 
 }
 
-/* ---------- CELULAR ---------- */
+/* ============================
+   BOTÃO CARDÁPIO
+============================ */
+
+.btn-cardapio{
+
+    position:absolute;
+
+    right:6.5%;
+    bottom:2.1%;
+
+    width:25%;
+    height:11%;
+
+    border-radius:50%;
+
+}
+
+/* CELULAR */
 
 @media(max-width:480px){
 
     body{
+
         padding:15px;
+
     }
 
     .convite{
